@@ -94,7 +94,7 @@
         <legend>Enter a comment:</legend>
         <label for="name_field"><strong>Name</strong></label
         ><br />
-        <input type="text" name="name" id="name_field" /><br />
+        <input type="text" name="name" id="name_field" required /><br />
         <label for="comment_area"><strong>Comment</strong></label
         ><br />
         <textarea
@@ -102,6 +102,7 @@
           id="comment_area"
           cols="30"
           rows="10"
+          required
         ></textarea
         ><br />
         <input
@@ -145,6 +146,7 @@
           name="recipe"
           id="breakfast_radio"
           value="Breakfast"
+          required
         />
         <label for="lunch_radio">Lunch</label>
         <input type="radio" name="recipe" id="lunch_radio" value="Lunch" />
